@@ -1,1 +1,3 @@
 org.jboss.arquillian.persistence.core.container.RemotePersistenceExtension
+org.jboss.arquillian.persistence.dbunit.container.RemoteDBUnitExtension
+org.jboss.arquillian.persistence.datasource.JndiPersistenceExtension

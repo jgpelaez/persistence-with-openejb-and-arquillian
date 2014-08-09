@@ -2,6 +2,7 @@ package org.superbiz;
 
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
+import org.jboss.arquillian.persistence.DataSource;
 import org.jboss.arquillian.persistence.ShouldMatchDataSet;
 import org.jboss.arquillian.persistence.UsingDataSet;
 import org.jboss.arquillian.transaction.api.annotation.TransactionMode;
@@ -18,6 +19,7 @@ import javax.inject.Inject;
 import static org.junit.Assert.assertNotNull;
 
 @RunWith(Arquillian.class)
+//@DataSource("testDatabase")
 public class PersonTest
 {
     @Deployment
